@@ -1,4 +1,4 @@
-#Prime Now - Movie Search App.
+# Prime Now - Movie Search App.
 
 # Getting Started with Create React App
 
