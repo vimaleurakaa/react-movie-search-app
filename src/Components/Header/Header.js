@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className={`container-fluid shadow-sm ${styles.navbar_header}`}>
+    <div className={`container-fluid  shadow-sm fixed ${styles.navbar_header}`}>
       <Navbar expand="lg">
         <Link to="/">
           <Navbar.Brand>

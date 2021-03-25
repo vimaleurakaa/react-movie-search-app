@@ -13,6 +13,10 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route path="/movie/:id" component={MoviePage} />
       </Switch>
+      <div className="footer">
+        @Vimal Thanikachalam 2021 |{" "}
+        <a href="https://github.com/vimaleurakaa">Github</a>
+      </div>
     </Router>
   );
 };

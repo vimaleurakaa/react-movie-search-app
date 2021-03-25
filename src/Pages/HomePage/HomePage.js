@@ -94,8 +94,6 @@ class Home extends Component {
             />
           </div>
         </div>
-
-        <div style={{ textAlign: "center" }}>Vimal Kumar Thanikachalam</div>
       </div>
     );
   }

@@ -24,7 +24,12 @@ $white: #ffffff;
 }
 
 #banner {
-  background: url("https://res.cloudinary.com/dw369yzsh/image/upload/v1470916846/banner_background_ez243c.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(58, 58, 58, 0.05),
+      rgba(0, 0, 0, 1)
+    ),
+    url("https://www.wallpaperup.com/uploads/wallpapers/2014/02/13/253404/0b9e7600e7730a2adcedc6e7f2f30abb-700.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
