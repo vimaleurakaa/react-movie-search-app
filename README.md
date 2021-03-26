@@ -1,6 +1,6 @@
 # Prime Now - Movie Search App.
 
-<a href="https://react-movie-search-app-3eosaurxt-vimaleurakaa.vercel.app/">Live Demo</a>
+<a href="https://react-movie-search-app-git-master-vimaleurakaa.vercel.app/">Live Demo</a>
 
 # Getting Started with Create React App
 
