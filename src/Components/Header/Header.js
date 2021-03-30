@@ -19,10 +19,10 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <div className={`ms-auto ${styles.nav_items}`}>
-            <Link to="/" className={styles.nav_link_item} href="#home">
+            <Link to="/" className={styles.nav_link_item}>
               Home
             </Link>
-            <Link to="/bookmarks" className={styles.nav_link_item} href="#book">
+            <Link to="/bookmarks" className={styles.nav_link_item}>
               Bookmarks
             </Link>
           </div>

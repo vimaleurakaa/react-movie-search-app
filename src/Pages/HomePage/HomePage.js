@@ -26,6 +26,11 @@ class Home extends Component {
       "transformers",
       "blade",
       "avengers",
+      "pink panther",
+      "pokemon",
+      "dragon",
+      "disney",
+      "mickey",
     ];
     const recommended = rList[Math.floor(Math.random() * rList.length)];
     const url = `https://www.omdbapi.com/?apikey=45f0782a&s=${recommended}`;
@@ -44,12 +49,16 @@ class Home extends Component {
 
   //get search results from api
   searchHandler = () => {
-    const url = `https://www.omdbapi.com/?apikey=45f0782a&s=${this.userInput}`;
-    axios.get(url).then((movie) => {
-      this.setState({
-        movies: movie.data.Search,
+    if (this.userInput.length >= 4) {
+      const url = `https://www.omdbapi.com/?apikey=45f0782a&s=${this.userInput}`;
+      axios.get(url).then((movie) => {
+        this.setState({
+          movies: movie.data.Search,
+        });
       });
-    });
+    } else {
+      alert("Please Enter a Valid Movie Name!!");
+    }
   };
 
   bookmarkHandler = (e, value) => {
